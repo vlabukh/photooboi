@@ -3,12 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Вид на Нью-Йорк</title>
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="style_order.css" />
 	</head>
 	<body>
-		<div class="header">header</div>
-		<div class="category">category</div>
-		<section class="order">
+		<section class="order__unique">
 			<h1>Вид на Нью-Йорк</h1>
 			<div class="carousel">
 				<button class="button button__left">
@@ -23,9 +21,7 @@
 					<img src="/img/arrow-right.png" alt="Следущий слайд" />
 				</button>
 				<div class="carousel_dots">
-					<button
-						class="carousel_dot carousel_dot__active"
-					></button>
+					<button class="carousel_dot carousel_dot__active"></button>
 					<button class="carousel_dot"></button>
 					<button class="carousel_dot"></button>
 				</div>
@@ -41,7 +37,7 @@
 				</ul>
 			</div>
 			<div class="size">
-				<div class="number">1</div>
+				<div class="number__unique">1</div>
 				<h2>Укажите размеры стены</h2>
 				<div class="size_fields">
 					<div class="size_field">
@@ -50,13 +46,13 @@
 					</div>
 					<div class="size_field size_field__error">
 						<p>Ширина стены (см)</p>
-						<input placeholder="380" />
+						<input type="number" placeholder="380" />
 					</div>
 				</div>
 			</div>
 			<p class="total">325.00(BY)</p>
 			<div class="texture">
-				<div class="number">2</div>
+				<div class="number__unique">2</div>
 				<h2>Выбор текстуры</h2>
 				<div class="texture_list">
 					<div class="texture_element">
@@ -112,9 +108,7 @@
 				<button class="last_button last_button__left">
 					<img src="/img/cartIcon.png" /> В корзину
 				</button>
-				<button class="last_button last_button__right">
-					Заказать
-				</button>
+				<button class="last_button last_button__right">Заказать</button>
 			</div>
 		</section>
 	</body>
